@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(150, 150)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(387.0, 62.0)" />
+		<node id="2" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(537.0, 62.0)" />
+		<node id="3" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script (1)" position="(687.0, 62.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVBQoAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIw3QzovVXNlcnMvR3Jhw7puYSBNb3Rvcy9Eb3dubG9hZHMvZ2VybWFuX2NyZWRpdF9kYXRh
+LmNzdpSMBnByZWZpeJROjAdyZWxwYXRolE6MBXRpdGxllIwAlIwFc2hlZXSUaA6MC2ZpbGVfZm9y
+bWF0lE51YmgGKYGUfZQoaAmMPkM6L1VzZXJzL0dyYcO6bmEgTW90b3MvRG93bmxvYWRzL0Zyb3Rh
+X2xvY2FsaXphIC0gUMOhZ2luYTEuY3N2lGgLTmgMTmgNaA5oD2gOaBBOdWJoBimBlH2UKGgJjD5D
+Oi9Vc2Vycy9HcmHDum5hIE1vdG9zL0Rvd25sb2Fkcy9Gcm90YV9sb2NhbGl6YSAtIFDDoWdpbmEz
+LmNzdpRoC05oDE5oDWgOaA9oDmgQTnViaAYpgZR9lChoCYxfQzovVXNlcnMvR3Jhw7puYSBNb3Rv
+cy9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2Uv
+ZGF0YXNldHMvaXJpcy50YWKUaAuMD3NhbXBsZS1kYXRhc2V0c5RoDIwIaXJpcy50YWKUaA1oDmgP
+aA5oEE51YmgGKYGUfZQoaAmMYkM6L1VzZXJzL0dyYcO6bmEgTW90b3MvQXBwRGF0YS9Mb2NhbC9Q
+cm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL3RpdGFuaWMu
+dGFilGgLaBpoDIwLdGl0YW5pYy50YWKUaA1oDmgPaA5oEE51YmgGKYGUfZQoaAmMYkM6L1VzZXJz
+L0dyYcO6bmEgTW90b3MvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFj
+a2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hvdXNpbmcudGFilGgLaBpoDIwLaG91c2luZy50YWKUaA1o
+DmgPaA5oEE51YmgGKYGUfZQoaAmMaEM6L1VzZXJzL0dyYcO6bmEgTW90b3MvQXBwRGF0YS9Mb2Nh
+bC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hlYXJ0
+X2Rpc2Vhc2UudGFilGgLaBpoDIwRaGVhcnRfZGlzZWFzZS50YWKUaA1oDmgPaA5oEE51YmgGKYGU
+fZQoaAmMaUM6L1VzZXJzL0dyYcO6bmEgTW90b3MvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFu
+Z2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2Jyb3duLXNlbGVjdGVkLnRhYpRo
+C2gaaAyMEmJyb3duLXNlbGVjdGVkLnRhYpRoDWgOaA9oDmgQTnViaAYpgZR9lChoCYxeQzovVXNl
+cnMvR3Jhw7puYSBNb3Rvcy9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1w
+YWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvem9vLnRhYpRoC2gaaAyMB3pvby50YWKUaA1oDmgPaA5o
+EE51YmWMC3JlY2VudF91cmxzlF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAAB
+AAAAEAAABQAAAAKvAAAAAgAAAC4AAAT/AAACrgAAAAAAAAAABQAAAAACAAAALgAABP8AAAKulIwL
+c2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgOjA1kb21haW5fZWRpdG9ylH2UjAtfX3Zl
+cnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwH
+Q29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJdmFyaWFibGVzlF2UaDh9lGhEXZQoXZQojAlG
+ZWF0dXJlIDGUjBRPcmFuZ2UuZGF0YS52YXJpYWJsZZSMEkNvbnRpbnVvdXNWYXJpYWJsZZSTlEsA
+aA6IZV2UKIwDQWdllGhMSwBoDohlXZQojANTZXiUaEqMEERpc2NyZXRlVmFyaWFibGWUk5RLAIwM
+ZmVtYWxlLCBtYWxllIllXZQojANKb2KUaExLAGgOiGVdlCiMB0hvdXNpbmeUaFJLAIwPZnJlZSwg
+b3duLCByZW50lIllXZQojA9TYXZpbmcgYWNjb3VudHOUaFJLAIwibGl0dGxlLCBtb2RlcmF0ZSwg
+cXVpdGUgcmljaCwgcmljaJSJZV2UKIwQQ2hlY2tpbmcgYWNjb3VudJRoUksAjBZsaXR0bGUsIG1v
+ZGVyYXRlLCByaWNolIllXZQojA1DcmVkaXQgYW1vdW50lGhMSwBoDohlXZQojAhEdXJhdGlvbpRo
+TEsAaA6IZV2UKIwHUHVycG9zZZRoUksAjGZidXNpbmVzcywgY2FyLCBkb21lc3RpYyBhcHBsaWFu
+Y2VzLCBlZHVjYXRpb24sIGZ1cm5pdHVyZS9lcXVpcG1lbnQsIHJhZGlvL1RWLCByZXBhaXJzLCB2
+YWNhdGlvbi9vdGhlcnOUiWVdlCiMBFJpc2uUaFJLAYwJYmFkLCBnb29klIllZXNoOksBdYwKYXR0
+cmlidXRlc5QojAlGZWF0dXJlIDGUSwKGlIwDQWdllEsChpSMA1NleJRdlCiMBmZlbWFsZZSMBG1h
+bGWUZYaUjANKb2KUSwKGlIwHSG91c2luZ5RdlCiMBGZyZWWUjANvd26UjARyZW50lGWGlIwPU2F2
+aW5nIGFjY291bnRzlF2UKIwGbGl0dGxllIwIbW9kZXJhdGWUjApxdWl0ZSByaWNolIwEcmljaJRl
+hpSMEENoZWNraW5nIGFjY291bnSUXZQojAZsaXR0bGWUjAhtb2RlcmF0ZZSMBHJpY2iUZYaUjA1D
+cmVkaXQgYW1vdW50lEsChpSMCER1cmF0aW9ulEsChpSMB1B1cnBvc2WUXZQojAhidXNpbmVzc5SM
+A2NhcpSME2RvbWVzdGljIGFwcGxpYW5jZXOUjAllZHVjYXRpb26UjBNmdXJuaXR1cmUvZXF1aXBt
+ZW50lIwIcmFkaW8vVFaUjAdyZXBhaXJzlIwPdmFjYXRpb24vb3RoZXJzlGWGlIwEUmlza5RdlCiM
+A2JhZJSMBGdvb2SUZYaUdJSMBW1ldGFzlCmMCmNsYXNzX3ZhcnOUKYwSbW9kaWZpZWRfdmFyaWFi
+bGVzlF2UdWJhdS4=
+</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xfa\xaf\x00\x00\x00\xbd\xff\xff\xfd\xd0\x00\x00\x02\xc6\xff\xff\xfa\xb0\x00\x00\x00\xd2\xff\xff\xfd\xcf\x00\x00\x02\xc5\x00\x00\x00\x01\x00\x00\x00\x00\x07\x80\xff\xff\xfa\xb0\x00\x00\x00\xd2\xff\xff\xfd\xcf\x00\x00\x02\xc5', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xf8\x7f\xff\xff\xff\xca\x00\x00\x00\x00\x00\x00\x03\xd0\xff\xff\xf8\x80\xff\xff\xff\xdf\xff\xff\xff\xff\x00\x00\x03\xcf\x00\x00\x00\x01\x02\x00\x00\x00\x07\x80\xff\xff\xf8\x80\xff\xff\xff\xdf\xff\xff\xff\xff\x00\x00\x03\xcf', 'scriptLibrary': [{'name': 'Table from numpy', 'script': "\n    \n    # Convertendo o Orange Table para um DataFrame pandas\nimport matplotlib.pyplot as plt\nfrom collections import defaultdict\n    \n    # Extrair dados do Orange Table\npurpose_sum = defaultdict(float)\nfor row in in_data:\n    purpose = row['Purpose'].value\n    credit_amount = float(row['Credit amount'])\n    purpose_sum[purpose] += credit_amount\n    \n    # Ordenar os dados\nsorted_data = sorted(purpose_sum.items(), key=lambda x: x[1], reverse=True)\npurposes, amounts = zip(*sorted_data)\n    \n    # Criar o gráfico de barras\nplt.figure(figsize=(10, 6))\nplt.bar(purposes, amounts)\nplt.title('Soma de Crédito por Propósito')\nplt.xlabel('Propósito')\nplt.ylabel('Soma do Montante de Crédito')\nplt.xticks(rotation=45, ha='right')\nplt.tight_layout()\nplt.show()\n    \nreturn in_data \n    \n\n", 'filename': None}, {'name': 'New script', 'script': "\n    \n    # Convertendo o Orange Table para um DataFrame pandas\nimport matplotlib.pyplot as plt\nfrom collections import defaultdict\n    \n    # Extrair dados do Orange Table\npurpose_sum = defaultdict(float)\nfor row in in_data:\n    purpose = row['Purpose'].value\n    credit_amount = float(row['Credit amount'])\n    purpose_sum[purpose] += credit_amount\n    \n    # Ordenar os dados\nsorted_data = sorted(purpose_sum.items(), key=lambda x: x[1], reverse=True)\npurposes, amounts = zip(*sorted_data)\n    \n    # Criar o gráfico de barras\nplt.figure(figsize=(10, 6))\nplt.bar(purposes, amounts)\nplt.title('Soma de Crédito por Propósito')\nplt.xlabel('Propósito')\nplt.ylabel('Soma do Montante de Crédito')\nplt.xticks(rotation=45, ha='right')\nplt.tight_layout()\nplt.show()\n    \nreturn in_data \n    \n\n", 'filename': None}], 'scriptText': 'import matplotlib.pyplot as plt\nfrom collections import defaultdict\nimport numpy as np\n\ndef analyze_credit_data(data):\n    # Extrair dados do Orange Table\n    purpose_sum = defaultdict(float)\n    for row in data:\n        purpose = row[\'Purpose\'].value\n        credit_amount = float(row[\'Credit amount\'])\n        purpose_sum[purpose] += credit_amount\n    \n    # Ordenar os dados\n    sorted_data = sorted(purpose_sum.items(), key=lambda x: x[1], reverse=True)\n    purposes, amounts = zip(*sorted_data)\n    \n    # Calcular o total e as porcentagens\n    total = sum(amounts)\n    percentages = [(amount / total) * 100 for amount in amounts]\n    \n    # Criar uma paleta de cores\n    colors = plt.cm.Blues(np.linspace(0.4, 0.8, len(amounts)))\n    \n    # Encontrar o índice do maior valor\n    max_index = amounts.index(max(amounts))\n    \n    # Destacar o maior valor com uma cor mais escura\n    colors[max_index] = plt.cm.Blues(0.9)\n    \n    # Criar o gráfico de barras\n    plt.figure(figsize=(14, 8))\n    bars = plt.bar(purposes, amounts, color=colors)\n    \n    # Adicionar rótulos de valor e porcentagem no topo de cada barra\n    for bar, percentage in zip(bars, percentages):\n        height = bar.get_height()\n        plt.text(bar.get_x() + bar.get_width()/2., height,\n                 f\'{height:.0f}\\n({percentage:.1f}%)\',\n                 ha=\'center\', va=\'bottom\')\n    \n    plt.title(\'Soma e Proporção de Crédito por Propósito\', fontsize=16)\n    plt.xlabel(\'Propósito\', fontsize=12)\n    plt.ylabel(\'Soma do Montante de Crédito\', fontsize=12)\n    plt.xticks(rotation=45, ha=\'right\')\n    plt.tight_layout()\n    \n    # Adicionar texto com o total\n    plt.text(0.95, 0.95, f\'Total: {total:.0f}\', transform=plt.gca().transAxes, \n             ha=\'right\', va=\'top\', bbox=dict(facecolor=\'white\', alpha=0.8))\n    \n    plt.show()\n    \n    # Imprimir um resumo no console\n    print("\\nResumo da Análise de Crédito:")\n    print(f"{\'Propósito\':&lt;20} {\'Montante\':&lt;10} {\'Porcentagem\':&lt;10}")\n    print("-" * 45)\n    for purpose, amount, percentage in zip(purposes, amounts, percentages):\n        print(f"{purpose:&lt;20} {amount:&lt;10.0f} {percentage:&lt;10.1f}%")\n    print("-" * 45)\n    print(f"{\'Total\':&lt;20} {total:&lt;10.0f} 100.0%")\n\n# Verifica se há dados de entrada\nif in_data is not None:\n    analyze_credit_data(in_data)\n    print("Análise concluída. O gráfico foi exibido.")\nelse:\n    print("Nenhum dado de entrada disponível.")\n\n# Passa os dados de entrada para a saída\nout_data = in_data', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa2\x00\x00\x00^\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': True, '__version__': 2}</properties>
+		<properties node_id="3" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 1, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xf8\x7f\xff\xff\xff\xca\x00\x00\x00\x00\x00\x00\x03\xd0\xff\xff\xf8\x80\xff\xff\xff\xdf\xff\xff\xff\xff\x00\x00\x03\xcf\x00\x00\x00\x01\x02\x00\x00\x00\x07\x80\xff\xff\xf8\x80\xff\xff\xff\xdf\xff\xff\xff\xff\x00\x00\x03\xcf', 'scriptLibrary': [{'name': 'Table from numpy', 'script': "\n    \n    # Convertendo o Orange Table para um DataFrame pandas\nimport matplotlib.pyplot as plt\nfrom collections import defaultdict\n    \n    # Extrair dados do Orange Table\npurpose_sum = defaultdict(float)\nfor row in in_data:\n    purpose = row['Purpose'].value\n    credit_amount = float(row['Credit amount'])\n    purpose_sum[purpose] += credit_amount\n    \n    # Ordenar os dados\nsorted_data = sorted(purpose_sum.items(), key=lambda x: x[1], reverse=True)\npurposes, amounts = zip(*sorted_data)\n    \n    # Criar o gráfico de barras\nplt.figure(figsize=(10, 6))\nplt.bar(purposes, amounts)\nplt.title('Soma de Crédito por Propósito')\nplt.xlabel('Propósito')\nplt.ylabel('Soma do Montante de Crédito')\nplt.xticks(rotation=45, ha='right')\nplt.tight_layout()\nplt.show()\n    \nreturn in_data \n    \n\n", 'filename': None}, {'name': 'New script', 'script': "\n    \n    # Convertendo o Orange Table para um DataFrame pandas\nimport matplotlib.pyplot as plt\nfrom collections import defaultdict\n    \n    # Extrair dados do Orange Table\npurpose_sum = defaultdict(float)\nfor row in in_data:\n    purpose = row['Purpose'].value\n    credit_amount = float(row['Credit amount'])\n    purpose_sum[purpose] += credit_amount\n    \n    # Ordenar os dados\nsorted_data = sorted(purpose_sum.items(), key=lambda x: x[1], reverse=True)\npurposes, amounts = zip(*sorted_data)\n    \n    # Criar o gráfico de barras\nplt.figure(figsize=(10, 6))\nplt.bar(purposes, amounts)\nplt.title('Soma de Crédito por Propósito')\nplt.xlabel('Propósito')\nplt.ylabel('Soma do Montante de Crédito')\nplt.xticks(rotation=45, ha='right')\nplt.tight_layout()\nplt.show()\n    \nreturn in_data \n    \n\n", 'filename': None}], 'scriptText': '\n\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa2\x00\x00\x00^\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': True, '__version__': 2}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
